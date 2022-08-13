@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 360px;
+  margin: 0 auto;
+  background-color: #fff4f4;
+
+  font-family: 'Montserrat';
+}
+
+header {
+  max-width: 360px;
+  display: flex;
+  gap: 16px;
+  align-items: left;
+  justify-content: left;
+  margin-top: 32px;
+}
+
+header img {
+  margin-left: 16px;
+  border-radius: 50%;
+  max-width: 57px;
+  max-height: 57px;
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+
+  color: #464646;
+}
+
+header p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+
+  color: #a3a3a3;
+}
+
+section {
+  max-width: 360px;
+  margin-bottom: 16px;
+}
+
+section .jour {
+  max-width: 360px;
+  width: 360px;
+  height: 42px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+section h2 {
+  margin-left: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+
+  color: #464646;
+}
+
+section .rdv {
+  max-width: 360px;
+  height: 170px;
+  backdrop-filter: blur(22px);
+  border-radius: 8px;
+}
+
+section .details {
+  max-width: 330px;
+  width: 330px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  margin-left: 16px;
+  padding-block: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  backdrop-filter: blur(22px);
+}
+
+section img.profil {
+  border-radius: 50%;
+  max-width: 32px;
+  max-height: 32px;
+}
+
+section .patient {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  max-width: 230px;
+}
+
+section .patient h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+
+  color: #464646;
+}
+
+section .patient img {
+  max-width: 16px;
+  max-height: 10.67px;
+}
+
+section .patient p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+
+  color: #a3a3a3;
+}
+
+section .patient .info-rendezvous {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+section img.chat {
+  width: 13.33px;
+  height: 13.33px;
+
+  margin-right: 16px;
+}
+
+section .coordonnees {
+  max-width: 330px;
+  width: 330px;
+  padding-left: 16px;
+
+  margin-left: 16px;
+  padding-block: 10px;
+
+  backdrop-filter: blur(22px);
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  margin-top: 4px;
+  padding-bottom: 16px;
+}
+
+section .coordonnees .p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+
+  color: #464646;
+}
+
+section .coordonnees div {
+  display: flex;
+  gap: 18px;
+}
+section .coordonnees button.video {
+  width: 139px;
+  height: 48px;
+
+  background: #ffb050;
+  border: 1px solid #ffb050;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+section .coordonnees button.audio {
+  width: 139px;
+  height: 48px;
+
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #464646;
+
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+section .coordonnees button.adresse {
+  width: 296px;
+  height: 48px;
+
+  background: #4894ff;
+  box-shadow: 0px 4px 16px rgba(72, 148, 255, 0.16);
+  border-radius: 8px;
+  border: none;
+
+  margin-right: 16px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+
+  color: #ffffff;
+  cursor: pointer;
+}
