@@ -8,8 +8,7 @@ body {
   max-width: 360px;
   margin: 0 auto;
   background-color: #fff4f4;
-
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -134,6 +133,14 @@ section .patient .info-rendezvous {
   align-items: center;
   gap: 10px;
 }
+
+section .patient .info-rendezvous p {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
 section img.chat {
   width: 13.33px;
   height: 13.33px;
@@ -147,7 +154,7 @@ section .coordonnees {
   padding-left: 16px;
 
   margin-left: 16px;
-  padding-block: 10px;
+  padding-top: 10px;
 
   backdrop-filter: blur(22px);
   border-radius: 8px;
@@ -156,7 +163,7 @@ section .coordonnees {
   flex-direction: column;
   gap: 9px;
 
-  margin-top: 4px;
+  margin-top: 1.5px;
   padding-bottom: 16px;
 }
 
@@ -172,6 +179,11 @@ section .coordonnees div {
   display: flex;
   gap: 18px;
 }
+
+section button {
+  border-radius: 8px;
+}
+
 section .coordonnees button.video {
   width: 139px;
   height: 48px;
@@ -196,13 +208,6 @@ section .coordonnees button.audio {
 
   background: #ffffff;
   border: 1px solid #ececec;
-  border-radius: 8px;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 160%;
-
-  text-align: center;
 
   color: #464646;
 
@@ -226,5 +231,45 @@ section .coordonnees button.adresse {
   line-height: 160%;
 
   color: #ffffff;
+  cursor: pointer;
+}
+
+footer {
+  max-width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+
+  background: #ffffff;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 12px 12px 0px 0px;
+  padding: 10px;
+
+  position: fixed;
+  width: 360px;
+  bottom: 0;
+}
+
+footer button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #464646;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
   cursor: pointer;
 }
