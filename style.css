@@ -9,6 +9,14 @@ body {
   margin: 0 auto;
   background-color: #fff4f4;
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 45px;
+}
+
+button {
+  border: none;
+  outline: none;
+
+  cursor: pointer;
 }
 
 header {
@@ -268,8 +276,80 @@ footer button {
   color: #464646;
 
   background: transparent;
-  border: none;
-  outline: none;
 
-  cursor: pointer;
+  opacity: 0.6;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 80%;
+  height: 250px;
+  margin-inline: auto;
+}
+
+aside button {
+  background: #4894ff;
+  box-shadow: 0px 4px 4px rgba(255, 152, 56, 0.06);
+
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+}
+
+aside .nouveau {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  justify-self: right;
+  gap: 15px;
+}
+
+aside .nouveau div {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 16px;
+}
+
+aside .nouveau div label {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #464646;
+
+  background-color: #fff;
+  border-radius: 2323px;
+  padding: 2px 8px;
+}
+
+aside .plus {
+  display: flex;
+  justify-content: right;
+}
+
+footer button:hover {
+  color: #4894ff;
+  opacity: 1;
+}
+
+footer button#rdv img:hover {
+  content: url('assets/Calendarioicone-hover.svg');
+}
+
+footer button#patients img:hover {
+  content: url('assets/clientes icone-hover.svg');
+}
+
+footer button#rapports img:hover {
+  content: url('assets/relatorios icone-hover.svg');
+}
+
+footer button#menu img:hover {
+  content: url('assets/menu icone-hover.svg');
 }
